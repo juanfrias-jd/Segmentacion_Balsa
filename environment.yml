@@ -1,0 +1,10 @@
+# Alternativa con conda:  conda env create -f environment.yml  &&  conda activate balsa-panoptic
+# (Para GPU, después instale torch con CUDA siguiendo https://pytorch.org/get-started/locally/)
+name: balsa-panoptic
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - -r requirements.txt

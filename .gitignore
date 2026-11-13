@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+data/raw/*
+!data/raw/images/
+data/raw/images/*
+!data/raw/images/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+runs/*
+!runs/.gitkeep
+tests/synthetic*/
+# Los pesos pesan ~200 MB: súbalos aparte (Drive/OneDrive) si usan GitHub
+models/weights/*.pt
